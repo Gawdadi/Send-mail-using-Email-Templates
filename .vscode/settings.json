@@ -1,0 +1,11 @@
+{
+    "rest-client.environmentVariables": {
+        "$shared": {
+            "content-type": "application/json"
+        },
+        "dev-env":{
+            "apiUrl" : "http://localhost:9200/api",
+        }
+    },
+    "git.ignoreLimitWarning": true
+}

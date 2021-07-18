@@ -1,0 +1,11 @@
+POST {{apiUrl}}/enquiry HTTP/1.1
+# authorization:{{token}}
+content-type: {{content-type}}
+
+{
+  "name": "John andrew",
+  "email":"useremail@mail.com",
+  "message" : "This is a example mail.",
+  "contact":9876543210,
+  "subject":"Mail send using email-templates and googleapis."
+}
